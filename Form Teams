@@ -1,0 +1,3 @@
+Team: Team Rocket
+Members: Ghosti Matas, Carlos Diaz, Uma Desai, Blake Mosley, Nura Mouktar
+Project Proposal: Pokédex, a simulated rendition of the famous monster identification device. This mobile web application will use AI or machine learning models to analyze and identify images of a subject which corresponds to the popular trading card game Pokémon, and potentially other trading card properties. The idea is to simulate the Pokédex experience, this means providing details on the subject such as their attributes and description, and providing images of each known card the subject is featured.
