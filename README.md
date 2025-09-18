@@ -16,3 +16,5 @@ Once you install python and pip run this command in the terminal:
 `pip install torch faiss-cpu numpy Pillow ultralytics easyocr python-dotenv git+https://github.com/openai/CLIP.git`
 
 This will install all dependencies required for the project
+
+And you ALL need to do this!!!
