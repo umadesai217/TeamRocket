@@ -17,4 +17,3 @@ Once you install python and pip run this command in the terminal:
 
 This will install all dependencies required for the project
 
-And you ALL need to do this!!!
