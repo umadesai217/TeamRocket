@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['card', 'hp', 'name', 'set num', 'set symbol', 'stamp']
+
+roboflow:
+  workspace: blakes-projects
+  project: pokemoncarddetector-gh3fj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/blakes-projects/pokemoncarddetector-gh3fj/dataset/2
