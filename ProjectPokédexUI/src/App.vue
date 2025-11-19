@@ -2,6 +2,7 @@
   import Toolbar from './components/Toolbar.vue'
   import Testview from './views/Testview.vue'
   // ...existing code...
+  // new begining 
 </script>
 
 <template>
