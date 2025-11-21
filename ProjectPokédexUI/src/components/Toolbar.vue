@@ -20,16 +20,17 @@ export default {
 </script>
 
 <template>
-  <header class="w-full h-25 toolbar">
+  <header class="p-0 m-0 w-full h-25 toolbar">
     
   </header>
 </template>
 
 <style scoped>
   .toolbar {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 50%, 45% 50%, 35% 100%, 0 100%);
     background-color: gray;
+    
   }
-
+  
   
 </style>
