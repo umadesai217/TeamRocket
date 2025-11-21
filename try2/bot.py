@@ -11,6 +11,7 @@ import easyocr
 import re
 from dotenv import load_dotenv
 from discord.ui import View, Button
+import requests
 
 # === OCR ===
 reader = easyocr.Reader(['en'])  # Better OCR than Tesseract
@@ -160,39 +161,46 @@ async def on_message(message):
                 await message.channel.send("🧠 Processing image...")
 
                 try:
+                    
                     img_bytes = await attachment.read()
-                    pil_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
-                    temp_path = os.path.join(BASE_DIR, "query.jpg")
-                    pil_img.save(temp_path)
+                    url = "http://127.0.0.1:8000/upload/"
+                    files = {"file": (attachment.filename, io.BytesIO(img_bytes), "image/jpeg")}
+                    response = requests.post(url, files=files)
 
-                    cropped_img = detect_and_crop(pil_img, temp_path)
-                    results, oriented_img = auto_orient_with_clip(cropped_img)
+                    await message.channel.send(f"✅ Result: {response.json()}")
 
-                    top_match_filename = results[0][0]
-                    top_match_path = os.path.join(CARD_IMAGE_DIR, top_match_filename)
+                    # pil_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+                    # temp_path = os.path.join(BASE_DIR, "query.jpg")
+                    # pil_img.save(temp_path)
 
-                    hp_match, query_hp, matched_hp = validate_hp_local(oriented_img, top_match_path)
+                    # cropped_img = detect_and_crop(pil_img, temp_path)
+                    # results, oriented_img = auto_orient_with_clip(cropped_img)
 
-                    response = "🔍 **Top Matches:**\n"
-                    for i, (name, score) in enumerate(results, 1):
-                        response += f"{i}. `{name}` (Similarity: {score:.4f})\n"
+                    # top_match_filename = results[0][0]
+                    # top_match_path = os.path.join(CARD_IMAGE_DIR, top_match_filename)
 
-                    # if hp_match:
-                    #     response += f"\n✅ HP match: `{query_hp}`"
-                    # else:
-                    #     response += f"\n⚠️ HP mismatch: input `{query_hp}` vs matched `{matched_hp}`"
+                    # hp_match, query_hp, matched_hp = validate_hp_local(oriented_img, top_match_path)
 
-                    cropped_path = os.path.join(BASE_DIR, "cropped.jpg")
-                    oriented_img.save(cropped_path)
+                    # response = "🔍 **Top Matches:**\n"
+                    # for i, (name, score) in enumerate(results, 1):
+                    #     response += f"{i}. `{name}` (Similarity: {score:.4f})\n"
 
-                    files = []
-                    if os.path.exists(cropped_path):
-                        files.append(discord.File(cropped_path, filename="cropped.jpg"))
-                    if os.path.exists(top_match_path):
-                        files.append(discord.File(top_match_path, filename="match.jpg"))
+                    # # if hp_match:
+                    # #     response += f"\n✅ HP match: `{query_hp}`"
+                    # # else:
+                    # #     response += f"\n⚠️ HP mismatch: input `{query_hp}` vs matched `{matched_hp}`"
 
-                    view = FeedbackView(top_match_filename)
-                    await message.channel.send(response, files=files, view=view)
+                    # cropped_path = os.path.join(BASE_DIR, "cropped.jpg")
+                    # oriented_img.save(cropped_path)
+
+                    # files = []
+                    # if os.path.exists(cropped_path):
+                    #     files.append(discord.File(cropped_path, filename="cropped.jpg"))
+                    # if os.path.exists(top_match_path):
+                    #     files.append(discord.File(top_match_path, filename="match.jpg"))
+
+                    # view = FeedbackView(top_match_filename)
+                    # await message.channel.send(response, files=files, view=view)
 
                 except Exception as e:
                     await message.channel.send(f"❌ Error: {str(e)}")
