@@ -30,6 +30,6 @@ This will install all dependencies required for the project
 - Once installed, download the TeamRocket folder.
   
 - Open the terminal, path to the folder, and run these commands:
-  'npm init -y'
-  'npm install @supabase/supabase-js'
-  'node populate-db.js'
+  `npm init -y`
+  `npm install @supabase/supabase-js`
+  `node populate-db.js`
