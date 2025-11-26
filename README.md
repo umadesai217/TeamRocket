@@ -24,3 +24,12 @@ Once you install python and pip run this command in the terminal:
 
 This will install all dependencies required for the project
 
+### Development
+- Install node.js [https://www.docker.com/products/docker-desktop/](https://nodejs.org/en/download)
+  
+- Once installed, download the TeamRocket folder.
+  
+- Open the terminal, path to the folder, and run these commands:
+  'npm init -y'
+  'npm install @supabase/supabase-js'
+  'node populate-db.js'
