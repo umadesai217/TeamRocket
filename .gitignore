@@ -1,0 +1,12 @@
+try2/card_embeddings.npy
+try2/card_index.faiss
+*.png
+.env
+index_out/card_embeddings.npy
+index_out/card_filenames.txt
+index_out/card_index.faiss
+index_out/index_manifest.json
+try2/index_out/card_embeddings.npy
+try2/index_out/card_filenames.txt
+try2/index_out/card_index.faiss
+try2/index_out/index_manifest.json
