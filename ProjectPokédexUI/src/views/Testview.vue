@@ -75,7 +75,7 @@ const stopCamera = () => {
 }
 
 const dataUrlToBlob = async (dataUrl) => {
-  // Easiest trick: re-fetch the data URL, browser gives you a Blob
+  // re-fetch the data URL, browser gives you a Blob
   const res = await fetch(dataUrl)
   return await res.blob()
 }
