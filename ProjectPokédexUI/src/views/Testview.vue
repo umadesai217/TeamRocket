@@ -1,141 +1,141 @@
 <script setup>
 
-import { ref, onMounted, onBeforeUnmount } from 'vue'
+  import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-// --- Login state ---
-const loggedIn = ref(false)
-const username = ref('')
-const password = ref('')
-const loginError = ref('')
-
-// login function requiring username + password
-const attemptLogin = () => {
-  if (!username.value.trim() || !password.value) {
-    loginError.value = "Nom d'utilisateur et mot de passe requis."
-    return
-  }
-  loginError.value = ''
-  loggedIn.value = true
-}
-
-// --- Page state ---
-const currentPage = ref('camera') // 'camera' or 'scans'
-
-// --- Camera and video ---
-const cameraActive = ref(false)
-const videoRef = ref(null)
-let stream = null
-
-// --- Scans ---
-const scans = ref([])
-// each scan will look like:
-// { image: string, cardName: string, confidence: number, cardId: number | null }
-
-const isLoading = ref(false)
-const scanError = ref('')
-const API_BASE_URL = 'https://98776641cde4.ngrok-free.app/upload/' // or wherever FastAPI runs
-
-const loadScans = () => {
-  const stored = JSON.parse(localStorage.getItem('scans') || '[]')
-  scans.value = stored
-}
-
-//
-const clearScans = () => {
-  scans.value = []
-  localStorage.removeItem('scans')
-  message.value = 'All Pokédex entries cleared.'
-}
-
-// --- Messages ---
-const message = ref('Welcome!')
-
-// --- Camera functions ---
-const toggleCamera = async () => {
-  if (cameraActive.value) stopCamera()
-  else await startCamera()
-}
-
-const startCamera = async () => {
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({ video: true })
-    videoRef.value.srcObject = stream
-    cameraActive.value = true
-    message.value = 'Camera is live.'
-  } catch (err) {
-    console.error(err)
-    message.value = 'Error accessing camera.'
-  }
-}
-
-const stopCamera = () => {
-  if (stream) stream.getTracks().forEach(track => track.stop())
-  cameraActive.value = false
-  message.value = 'Camera stopped.'
-}
-
-const dataUrlToBlob = async (dataUrl) => {
-  // Easiest trick: re-fetch the data URL, browser gives you a Blob
-  const res = await fetch(dataUrl)
-  return await res.blob()
-}
-
-const capturePhoto = async () => {
-  if (!cameraActive.value) return
-
-  const canvas = document.createElement('canvas')
-  canvas.width = videoRef.value.videoWidth
-  canvas.height = videoRef.value.videoHeight
-  const ctx = canvas.getContext('2d')
-  ctx.drawImage(videoRef.value, 0, 0)
-
-  const dataUrl = canvas.toDataURL('image/png')
-
-  isLoading.value = true
-  scanError.value = ''
-  message.value = 'Analyzing card...'
-
-  try {
-    const blob = await dataUrlToBlob(dataUrl)
-    const formData = new FormData()
-    formData.append('file', blob, 'capture.png')
-
-    const response = await fetch(`${API_BASE_URL}/predict`, {
-      method: 'POST',
-      body: formData,
-    })
-
-    if (!response.ok) {
-      throw new Error(`Server error: ${response.status}`)
+  // --- Login state ---
+  const loggedIn = ref(false)
+  const username = ref('')
+  const password = ref('')
+  const loginError = ref('')
+  
+  // login function requiring username + password
+  const attemptLogin = () => {
+    if (!username.value.trim() || !password.value) {
+      loginError.value = "Nom d'utilisateur et mot de passe requis."
+      return
     }
-
-    const result = await response.json()
-    // Adjust to match your FastAPI response keys
-    const cardName = result.card_name || 'Unknown card'
-    const confidence = result.confidence ?? null
-    const cardId = result.card_id ?? null
-
-    scans.value.push({
-      image: dataUrl,
-      cardName,
-      confidence,
-      cardId,
-    })
-    localStorage.setItem('scans', JSON.stringify(scans.value))
-
-    const confText = confidence != null ? ` (${(confidence * 100).toFixed(1)}% sure)` : ''
-    message.value = `Identified: ${cardName}${confText}`
-  } catch (err) {
-    console.error(err)
-    scanError.value = 'Failed to identify card. Check the server / network.'
-    message.value = 'Error while talking to Pokédex core.'
-  } finally {
-    isLoading.value = false
+    loginError.value = ''
+    loggedIn.value = true
   }
-}
 
-// Stop camera when leaving
-onBeforeUnmount(() => stopCamera())
+  // --- Page state ---
+  const currentPage = ref('camera') // 'camera' or 'scans'
+
+  // --- Camera and video ---
+  const cameraActive = ref(false)
+  const videoRef = ref(null)
+  let stream = null
+
+  // --- Scans ---
+  const scans = ref([])
+  // each scan will look like:
+  // { image: string, cardName: string, confidence: number, cardId: number | null }
+
+  const isLoading = ref(false)
+  const scanError = ref('')
+  const API_BASE_URL = 'https://98776641cde4.ngrok-free.app/upload/' // or wherever FastAPI runs
+
+  const loadScans = () => {
+    const stored = JSON.parse(localStorage.getItem('scans') || '[]')
+    scans.value = stored
+  }
+
+  //
+  const clearScans = () => {
+    scans.value = []
+    localStorage.removeItem('scans')
+    message.value = 'All Pokédex entries cleared.'
+  }
+
+  // --- Messages ---
+  const message = ref('Welcome!')
+
+  // --- Camera functions ---
+  const toggleCamera = async () => {
+    if (cameraActive.value) stopCamera()
+    else await startCamera()
+  }
+
+  const startCamera = async () => {
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ video: true })
+      videoRef.value.srcObject = stream
+      cameraActive.value = true
+      message.value = 'Camera is live.'
+    } catch (err) {
+      console.error(err)
+      message.value = 'Error accessing camera.'
+    }
+  }
+
+  const stopCamera = () => {
+    if (stream) stream.getTracks().forEach(track => track.stop())
+    cameraActive.value = false
+    message.value = 'Camera stopped.'
+  }
+
+  const dataUrlToBlob = async (dataUrl) => {
+    // Easiest trick: re-fetch the data URL, browser gives you a Blob
+    const res = await fetch(dataUrl)
+    return await res.blob()
+  }
+
+  const capturePhoto = async () => {
+    if (!cameraActive.value) return
+
+    const canvas = document.createElement('canvas')
+    canvas.width = videoRef.value.videoWidth
+    canvas.height = videoRef.value.videoHeight
+    const ctx = canvas.getContext('2d')
+    ctx.drawImage(videoRef.value, 0, 0)
+
+    const dataUrl = canvas.toDataURL('image/png')
+
+    isLoading.value = true
+    scanError.value = ''
+    message.value = 'Analyzing card...'
+
+    try {
+      const blob = await dataUrlToBlob(dataUrl)
+      const formData = new FormData()
+      formData.append('file', blob, 'capture.png')
+
+      const response = await fetch(`${API_BASE_URL}/predict`, {
+        method: 'POST',
+        body: formData,
+      })
+
+      if (!response.ok) {
+        throw new Error(`Server error: ${response.status}`)
+      }
+
+      const result = await response.json()
+      // Adjust to match your FastAPI response keys
+      const cardName = result.card_name || 'Unknown card'
+      const confidence = result.confidence ?? null
+      const cardId = result.card_id ?? null
+
+      scans.value.push({
+        image: dataUrl,
+        cardName,
+        confidence,
+        cardId,
+      })
+      localStorage.setItem('scans', JSON.stringify(scans.value))
+
+      const confText = confidence != null ? ` (${(confidence * 100).toFixed(1)}% sure)` : ''
+      message.value = `Identified: ${cardName}${confText}`
+    } catch (err) {
+      console.error(err)
+      scanError.value = 'Failed to identify card. Check the server / network.'
+      message.value = 'Error while talking to Pokédex core.'
+    } finally {
+      isLoading.value = false
+    }
+  }
+
+  // Stop camera when leaving
+  onBeforeUnmount(() => stopCamera())
 </script>
 
 <template>
