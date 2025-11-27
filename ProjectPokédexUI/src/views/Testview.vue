@@ -276,4 +276,21 @@ onBeforeUnmount(() => stopCamera())
   height: 100px;
   object-fit: cover;
 }
+
+.scan-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.scan-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.scan-name {
+  font-weight: bold;
+}
+
 </style>
