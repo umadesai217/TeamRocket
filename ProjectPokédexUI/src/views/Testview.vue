@@ -33,7 +33,7 @@ const scans = ref([])
 
 const isLoading = ref(false)
 const scanError = ref('')
-const API_BASE_URL = 'https://98776641cde4.ngrok-free.app/upload/' // or wherever FastAPI runs
+const API_BASE_URL = 'https://65410b355040.ngrok-free.app/upload/' // or wherever FastAPI runs
 
 const loadScans = () => {
   const stored = JSON.parse(localStorage.getItem('scans') || '[]')
@@ -228,8 +228,12 @@ onBeforeUnmount(() => stopCamera())
   margin-bottom: 15px;
 }
 
-.toolbar-buttons button {
-  margin-left: 5px;
+button {
+  margin-left: 10px;
+  border: 2px solid black;
+  padding: 2px 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 /* --- Camera box --- */
