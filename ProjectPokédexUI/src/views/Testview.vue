@@ -28,24 +28,25 @@ let stream = null
 
 // --- Scans ---
 const scans = ref([])
-// each scan will look like:
-// { image: string, cardName: string, confidence: number, cardId: number | null }
 
 const isLoading = ref(false)
 const scanError = ref('')
-const API_BASE_URL = 'https://65410b355040.ngrok-free.app/upload/' // or wherever FastAPI runs
+const API_URL = 'https://65410b355040.ngrok-free.app/upload/' // or wherever FastAPI runs
 
 const loadScans = () => {
   const stored = JSON.parse(localStorage.getItem('scans') || '[]')
   scans.value = stored
 }
 
-//
+// clear all scan data accumulated so far.
 const clearScans = () => {
   scans.value = []
   localStorage.removeItem('scans')
   message.value = 'All Pokédex entries cleared.'
 }
+
+// Load scans on mount 
+onMounted(() => loadScans())
 
 // --- Messages ---
 const message = ref('Welcome!')
@@ -100,31 +101,32 @@ const capturePhoto = async () => {
     const formData = new FormData()
     formData.append('file', blob, 'capture.png')
 
-    const response = await fetch(`${API_BASE_URL}/predict`, {
+    console.log('Sending request to:', API_URL)
+
+    const response = await fetch(API_URL, {
       method: 'POST',
       body: formData,
     })
 
+    console.log('Response status:', response.status)
+
     if (!response.ok) {
+      const errorText = await response.text().catch(() => '<no body>')
+      console.error('Response not OK. Body:', errorText)
       throw new Error(`Server error: ${response.status}`)
     }
 
     const result = await response.json()
-    // Adjust to match your FastAPI response keys
-    const cardName = result.card_name || 'Unknown card'
-    const confidence = result.confidence ?? null
-    const cardId = result.card_id ?? null
+    // API response key
+    const fileName = result.FileName || 'Unkown card'
 
     scans.value.push({
       image: dataUrl,
-      cardName,
-      confidence,
-      cardId,
+      cardName: fileName
     })
     localStorage.setItem('scans', JSON.stringify(scans.value))
 
-    const confText = confidence != null ? ` (${(confidence * 100).toFixed(1)}% sure)` : ''
-    message.value = `Identified: ${cardName}${confText}`
+    message.value = `Identified: ${fileName}`
   } catch (err) {
     console.error(err)
     scanError.value = 'Failed to identify card. Check the server / network.'
@@ -190,12 +192,6 @@ onBeforeUnmount(() => stopCamera())
               <p class="scan-name">
                 {{ scan.cardName || 'Unknown card' }}
               </p>
-              <p v-if="scan.confidence != null" class="scan-confidence">
-                Confidence: {{ (scan.confidence * 100).toFixed(1) }}%
-              </p>
-              <p v-if="scan.cardId != null" class="scan-id">
-                Card ID: {{ scan.cardId }}
-              </p>
             </div>
           </div>
         </div>
@@ -247,6 +243,7 @@ button {
   width: 100%;
   max-height: 300px;
   background: #000;
+  transform: scaleX(-1);
 }
 
 .camera-controls {
