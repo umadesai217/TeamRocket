@@ -165,7 +165,7 @@ async def on_message(message):
                 try:
                     
                     img_bytes = await attachment.read() # gets the iamge from the discord message
-                    url = "https://a4091ed57e6f.ngrok-free.app/upload/" #url for the api endpoint
+                    url =  os.getenv("NGROK_URL") + "upload/" #url for the api endpoint
                     files = {"file": (attachment.filename, io.BytesIO(img_bytes), "image/jpeg")} # prepares the file for sending
                     response = requests.post(url, files=files) # sends the post request to the api returns the JSON response
 

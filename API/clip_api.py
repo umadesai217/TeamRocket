@@ -8,14 +8,19 @@ from ultralytics import YOLO
 import io
 import os
 import easyocr
+from fastapi.middleware.cors import CORSMiddleware
+import dotenv
 
-
+dotenv.load_dotenv()
+NGROK_URL = os.getenv("NGROK_URL")
 
 # commands to run server and ngrok:
-# uvicorn fast_api_test:app --reload
+# cd .\api\
+# uvicorn clip_api:app --reload
 # ngrok config add-authtoken YOUR_TOKEN_HERE
 # token from here: https://dashboard.ngrok.com/get-started/your-authtoken
 # ngrok http 8000
+# remember to change the forwarding url, it changes every time you start ngrok
 
 
 
@@ -103,6 +108,22 @@ def auto_orient_with_clip(image: Image.Image):
 
 app = FastAPI()
 
+
+origins = [
+    "http://localhost",
+    "http://localhost:8080",
+    f"{NGROK_URL}",
+    "http://127.0.0.1:4040"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],       # Use this for development. Replace with `origins` list for security.
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 items = []
 
 @app.get("/")
@@ -162,7 +183,8 @@ async def upload_image(file: UploadFile = File(...)):
 
         filename = os.path.basename(name).strip("_large.jpg")
         response = {
-            "URL": f"https://xjtcqylndpugjcikdhtz.supabase.co/storage/v1/object/public/Images/{folder}/{filename}_large.jpg",
+            #"URL": f"https://xjtcqylndpugjcikdhtz.supabase.co/storage/v1/object/public/Images/{folder}/{filename}_large.jpg",
+            "URL": f"https://ik.imagekit.io/tcgapp/pokemon_cards/{folder}/{filename}_large.jpg",
             "FileName": filename,
             
             #"matches": matches,
