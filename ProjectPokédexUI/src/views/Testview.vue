@@ -31,7 +31,7 @@ const scans = ref([])
 
 const isLoading = ref(false)
 const scanError = ref('')
-const API_URL = 'https://65410b355040.ngrok-free.app/upload/' // or wherever FastAPI runs
+const API_URL = 'https://f06475ff0921.ngrok-free.app/upload/' // or wherever FastAPI runs
 
 const loadScans = () => {
   const stored = JSON.parse(localStorage.getItem('scans') || '[]')
@@ -72,7 +72,7 @@ const startCamera = async () => {
 const stopCamera = () => {
   if (stream) stream.getTracks().forEach(track => track.stop())
   cameraActive.value = false
-  message.value = 'Camera stopped.'
+message.value = 'Camera stopped.'
 }
 
 const dataUrlToBlob = async (dataUrl) => {
@@ -80,6 +80,10 @@ const dataUrlToBlob = async (dataUrl) => {
   const res = await fetch(dataUrl)
   return await res.blob()
 }
+
+// display variables for after a successful scan. Null by default.
+const lastCapture = ref(null)
+const lastResultImage = ref(null)
 
 const capturePhoto = async () => {
   if (!cameraActive.value) return
@@ -96,37 +100,48 @@ const capturePhoto = async () => {
   scanError.value = ''
   message.value = 'Analyzing card...'
 
+  //Get blob from web access data and translate into image.png
   try {
     const blob = await dataUrlToBlob(dataUrl)
     const formData = new FormData()
     formData.append('file', blob, 'capture.png')
-
+    //After format, send request to the API
     console.log('Sending request to:', API_URL)
-
+    //Fetch response
     const response = await fetch(API_URL, {
       method: 'POST',
       body: formData,
     })
 
     console.log('Response status:', response.status)
-
+    //Else display error
     if (!response.ok) {
       const errorText = await response.text().catch(() => '<no body>')
       console.error('Response not OK. Body:', errorText)
       throw new Error(`Server error: ${response.status}`)
     }
-
+    
+    //Get API json file response
     const result = await response.json()
     // API response key
+    const imageUrl = result.URL || 'no image available'
     const fileName = result.FileName || 'Unkown card'
 
+    lastCapture.value = dataUrl
+    lastResultImage.value = imageUrl
+    
     scans.value.push({
       image: dataUrl,
+      cardImage: imageUrl,
       cardName: fileName
     })
     localStorage.setItem('scans', JSON.stringify(scans.value))
 
     message.value = `Identified: ${fileName}`
+    
+    //stop camera to display cards
+    stopCamera()
+
   } catch (err) {
     console.error(err)
     scanError.value = 'Failed to identify card. Check the server / network.'
@@ -164,7 +179,15 @@ onBeforeUnmount(() => stopCamera())
     <!--camera-->
     <div v-if="currentPage === 'camera'" class="page camera-page">
       <div class="camera-box">
-        <video ref="videoRef" autoplay playsinline></video>
+        <div class="camera-output">
+          <!--Camera view-->
+          <video ref="videoRef" autoplay playsinline :style="{display: cameraActive ? 'block':'none'}"></video>
+          <!--Capture view-->
+          <div v-if="!cameraActive" class="result-images">
+            <img v-if="lastCapture" :src="lastCapture"/>
+            <img v-if="lastResultImage" :src="lastResultImage"/>
+          </div>
+        </div>
         <div class="camera-controls">
           <button @click="toggleCamera">{{ cameraActive ? 'Stop Camera' : 'Start Camera' }}</button>
           <button @click="capturePhoto" :disabled="!cameraActive">Capture</button>

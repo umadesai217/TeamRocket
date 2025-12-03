@@ -59,7 +59,7 @@ const sendTest = async () => {
     <p v-if="error" style="color:red;">Error: {{ error }}</p>
 
     <pre v-if="result" style="white-space:pre-wrap; background:#f5f5f5; padding:8px;">
-{{ result }}
+      {{ result }}
     </pre>
   </div>
 </template>
