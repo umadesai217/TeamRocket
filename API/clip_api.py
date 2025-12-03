@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, File, UploadFile
+from fastapi import FastAPI, HTTPException, File, UploadFile, Request
 import torch
 import clip
 import faiss
@@ -10,6 +10,12 @@ import os
 import easyocr
 from fastapi.middleware.cors import CORSMiddleware
 import dotenv
+import sentry_sdk
+import time
+import logging
+import logging
+
+
 
 dotenv.load_dotenv()
 NGROK_URL = os.getenv("NGROK_URL")
@@ -104,6 +110,13 @@ def auto_orient_with_clip(image: Image.Image):
 
 
 
+sentry_sdk.init(
+    dsn=os.getenv("SENTRY_DSN"),
+    # Add data like request headers and IP for users,
+    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+    send_default_pii=True,
+)
+
 
 
 app = FastAPI()
@@ -124,12 +137,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+LOG_PATH = os.path.join(BASE_DIR, "access.log")
+logger = logging.getLogger("access_log")
+logger.setLevel(logging.INFO)
+
+file_handler = logging.FileHandler(LOG_PATH)
+file_handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+logger.addHandler(file_handler)
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start = time.perf_counter()
+    response = await call_next(request)
+    duration = (time.perf_counter() - start) * 1000
+
+    logger.info(
+        f"{request.method} {request.url.path} "
+        f"-> {response.status_code} in {duration:.2f}ms"
+    )
+
+    return response
+
+
+
+
 items = []
 
 @app.get("/")
 def root():
     return {"Hello": "World"}
 
+@app.get("/sentry-debug")
+async def trigger_error():
+    division_by_zero = 1 / 0
 
 @app.get("/test")
 def root ():
@@ -153,6 +194,12 @@ def det_item(item_id:int) -> str:
 @app.post("/upload/")
 async def upload_image(file: UploadFile = File(...)):
     try:
+        # # Sentry test
+        # sentry_sdk.capture_message("Image upload endpoint hit")
+        # img_bytes = await file.read()
+        # pil_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+    
+    
         img_bytes = await file.read()
         pil_img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
         temp_path = os.path.join(BASE_DIR, "query.jpg")
@@ -198,7 +245,9 @@ async def upload_image(file: UploadFile = File(...)):
             json.dump(response, jf, ensure_ascii=False, indent=4)
 
         
-
+        # return the response
         return response
     except Exception as e:
+        # Log exception to Sentry
+        sentry_sdk.capture_exception(e)
         return {"error": str(e)}

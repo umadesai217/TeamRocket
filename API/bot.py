@@ -165,11 +165,19 @@ async def on_message(message):
                 try:
                     
                     img_bytes = await attachment.read() # gets the iamge from the discord message
-                    url =  os.getenv("NGROK_URL") + "upload/" #url for the api endpoint
+                    url =  os.getenv("NGROK_URL") + "/upload/" #url for the api endpoint
                     files = {"file": (attachment.filename, io.BytesIO(img_bytes), "image/jpeg")} # prepares the file for sending
                     response = requests.post(url, files=files) # sends the post request to the api returns the JSON response
+                    image_url = response.json().get("URL", "")
+                    filenames = response.json().get("FileName", "")
+                    embed = discord.Embed(
+                        title=f"🔍 Match Results for {filenames}",
+                        description=f"Here is the matched card image: [Link]({image_url})",
+                        color=discord.Color.blue() # You can choose any color
+                    )
+                    embed.set_image(url=image_url)
 
-                    await message.channel.send(f"✅ Result: {response.json()}") # sends the response back to in a discord message
+                    await message.channel.send(embed=embed) # sends the response back to in a discord message
 
                 except Exception as e:
                     await message.channel.send(f"❌ Error: {str(e)}")
