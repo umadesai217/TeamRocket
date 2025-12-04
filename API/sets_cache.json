@@ -1,0 +1,2084 @@
+[
+  {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "me2",
+      "name": "Phantasmal Flames",
+      "series": "Mega Evolution",
+      "code": "PFL",
+      "total": 130,
+      "printed_total": 94,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/11/14",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/me2-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/me2-symbol/symbol"
+    }
+  },
+  {
+    "id": "mep",
+    "name": "Mega Evolution Black Star Promos",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "mep",
+      "name": "Mega Evolution Black Star Promos",
+      "series": "Mega Evolution",
+      "code": "MEP",
+      "total": 28,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/09/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/mep-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/mep-symbol/symbol"
+    }
+  },
+  {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "me1",
+      "name": "Mega Evolution",
+      "series": "Mega Evolution",
+      "code": "MEG",
+      "total": 188,
+      "printed_total": 132,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/09/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/me1-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/me1-symbol/symbol"
+    }
+  },
+  {
+    "id": "m2_ja",
+    "name": "インフェルノX",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "m2_ja",
+      "name": "インフェルノX",
+      "series": "Mega Evolution",
+      "code": "M2",
+      "total": 116,
+      "printed_total": 80,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/09/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/m2_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/m2_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Inferno X"
+        }
+      }
+    }
+  },
+  {
+    "id": "tcgp-A4a",
+    "name": "Secluded Springs",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A4a",
+      "name": "Secluded Springs",
+      "series": "Pokémon TCG Pocket",
+      "code": "A4a",
+      "total": 105,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/08/27",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A4a-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A4a-symbol/symbol"
+    }
+  },
+  {
+    "id": "mp_ja",
+    "name": "Mega Evolution Promos",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "mp_ja",
+      "name": "Mega Evolution Promos",
+      "series": "Mega Evolution",
+      "code": "PROMO",
+      "total": 44,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/08/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/mp_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/mp_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Mega Evolution Promos"
+        }
+      }
+    }
+  },
+  {
+    "id": "ma_ja",
+    "name": "MEGA Premium Trainer Box",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "ma_ja",
+      "name": "MEGA Premium Trainer Box",
+      "series": "Mega Evolution",
+      "code": "MA",
+      "total": 43,
+      "printed_total": 43,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/08/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/ma_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/ma_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "MEGA Premium Trainer Box"
+        }
+      }
+    }
+  },
+  {
+    "id": "m1l_ja",
+    "name": "メガブレイブ",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "m1l_ja",
+      "name": "メガブレイブ",
+      "series": "Mega Evolution",
+      "code": "M1L",
+      "total": 92,
+      "printed_total": 63,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/08/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/m1l_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/m1l_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Mega Brave"
+        }
+      }
+    }
+  },
+  {
+    "id": "m1s_ja",
+    "name": "メガシンフォニア",
+    "series": "Mega Evolution",
+    "_raw": {
+      "id": "m1s_ja",
+      "name": "メガシンフォニア",
+      "series": "Mega Evolution",
+      "code": "M1S",
+      "total": 92,
+      "printed_total": 63,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/08/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/m1s_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/m1s_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Mega Symphonia"
+        }
+      }
+    }
+  },
+  {
+    "id": "tcgp-A4",
+    "name": "Wisdom of Sea and Sky",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A4",
+      "name": "Wisdom of Sea and Sky",
+      "series": "Pokémon TCG Pocket",
+      "code": "A4",
+      "total": 241,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/07/29",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A4-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A4-symbol/symbol"
+    }
+  },
+  {
+    "id": "zsv10pt5",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "zsv10pt5",
+      "name": "Black Bolt",
+      "series": "Scarlet & Violet",
+      "code": "BLK",
+      "total": 172,
+      "printed_total": 86,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/07/18",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/zsv10pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/zsv10pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "rsv10pt5",
+      "name": "White Flare",
+      "series": "Scarlet & Violet",
+      "code": "WHT",
+      "total": 173,
+      "printed_total": 86,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/07/18",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/rsv10pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/rsv10pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A3b",
+    "name": "Eevee Grove",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A3b",
+      "name": "Eevee Grove",
+      "series": "Pokémon TCG Pocket",
+      "code": "A3b",
+      "total": 107,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/06/25",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A3b-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A3b-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv11b_ja",
+    "name": "ブラックボルト",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv11b_ja",
+      "name": "ブラックボルト",
+      "series": "Scarlet & Violet",
+      "code": "SV11B",
+      "total": 174,
+      "printed_total": 86,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/06/06",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv11b_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv11b_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Black Bolt"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv11w_ja",
+    "name": "ホワイトフレア",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv11w_ja",
+      "name": "ホワイトフレア",
+      "series": "Scarlet & Violet",
+      "code": "SV11W",
+      "total": 174,
+      "printed_total": 86,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/06/06",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv11w_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv11w_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "White Flare"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv10",
+      "name": "Destined Rivals",
+      "series": "Scarlet & Violet",
+      "code": "DRI",
+      "total": 244,
+      "printed_total": 182,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/05/30",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv10-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv10-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A3a",
+    "name": "Extradimensional Crisis",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A3a",
+      "name": "Extradimensional Crisis",
+      "series": "Pokémon TCG Pocket",
+      "code": "A3a",
+      "total": 103,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/05/28",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A3a-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A3a-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A3",
+    "name": "Celestial Guardians",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A3",
+      "name": "Celestial Guardians",
+      "series": "Pokémon TCG Pocket",
+      "code": "A3",
+      "total": 239,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/04/29",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A3-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A3-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv10_ja",
+    "name": "ロケット団の栄光",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv10_ja",
+      "name": "ロケット団の栄光",
+      "series": "Scarlet & Violet",
+      "code": "SV10",
+      "total": 132,
+      "printed_total": 98,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/04/18",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv10_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv10_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Glory of Team Rocket"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv9",
+      "name": "Journey Together",
+      "series": "Scarlet & Violet",
+      "code": "JTG",
+      "total": 190,
+      "printed_total": 159,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/03/28",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv9-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv9-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A2b",
+    "name": "Shining Revelry",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A2b",
+      "name": "Shining Revelry",
+      "series": "Pokémon TCG Pocket",
+      "code": "A2b",
+      "total": 111,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/03/27",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A2b-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A2b-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv9a_ja",
+    "name": "熱風のアリーナ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv9a_ja",
+      "name": "熱風のアリーナ",
+      "series": "Scarlet & Violet",
+      "code": "SV9a",
+      "total": 92,
+      "printed_total": 63,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/03/14",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv9a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv9a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Hot Air Arena"
+        }
+      }
+    }
+  },
+  {
+    "id": "tcgp-A2a",
+    "name": "Triumphant Light",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A2a",
+      "name": "Triumphant Light",
+      "series": "Pokémon TCG Pocket",
+      "code": "A2a",
+      "total": 96,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/02/27",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A2a-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A2a-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A2",
+    "name": "Space-Time Smackdown",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A2",
+      "name": "Space-Time Smackdown",
+      "series": "Pokémon TCG Pocket",
+      "code": "A2",
+      "total": 207,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/01/30",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A2-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A2-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv9_ja",
+    "name": "バトルパートナーズ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv9_ja",
+      "name": "バトルパートナーズ",
+      "series": "Scarlet & Violet",
+      "code": "SV9",
+      "total": 132,
+      "printed_total": 100,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2025/01/24",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv9_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv9_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Battle Partners"
+        }
+      }
+    }
+  },
+  {
+    "id": "mcd24",
+    "name": "McDonald's Collection 2024",
+    "series": "Other",
+    "_raw": {
+      "id": "mcd24",
+      "name": "McDonald's Collection 2024",
+      "series": "Other",
+      "total": 15,
+      "printed_total": 15,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/01/21",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/mcd24-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/mcd24-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv8pt5",
+      "name": "Prismatic Evolutions",
+      "series": "Scarlet & Violet",
+      "total": 180,
+      "printed_total": 131,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2025/01/17",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv8pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv8pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A1a",
+    "name": "Mythical Island",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A1a",
+      "name": "Mythical Island",
+      "series": "Pokémon TCG Pocket",
+      "code": "A1a",
+      "total": 86,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/12/16",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A1a-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A1a-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv8a_ja",
+    "name": "テラスタルフェスex",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv8a_ja",
+      "name": "テラスタルフェスex",
+      "series": "Scarlet & Violet",
+      "code": "SV8a",
+      "total": 237,
+      "printed_total": 187,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/12/06",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv8a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv8a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Terastal Festival ex"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv8",
+      "name": "Surging Sparks",
+      "series": "Scarlet & Violet",
+      "total": 252,
+      "printed_total": 191,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/11/08",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv8-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv8-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-PA",
+    "name": "Promo-A",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-PA",
+      "name": "Promo-A",
+      "series": "Pokémon TCG Pocket",
+      "code": "PROMO-A",
+      "total": 23,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/10/29",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-PA-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-PA-symbol/symbol"
+    }
+  },
+  {
+    "id": "tcgp-A1",
+    "name": "Genetic Apex",
+    "series": "Pokémon TCG Pocket",
+    "_raw": {
+      "id": "tcgp-A1",
+      "name": "Genetic Apex",
+      "series": "Pokémon TCG Pocket",
+      "code": "A1",
+      "total": 286,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/10/29",
+      "is_online_only": true,
+      "logo": "https://images.scrydex.com/pokemon/tcgp-A1-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/tcgp-A1-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv8_ja",
+    "name": "超電ブレイカー",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv8_ja",
+      "name": "超電ブレイカー",
+      "series": "Scarlet & Violet",
+      "code": "SV8",
+      "total": 138,
+      "printed_total": 106,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/10/18",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv8_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv8_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Super Electric Breaker"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv7",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv7",
+      "name": "Stellar Crown",
+      "series": "Scarlet & Violet",
+      "total": 175,
+      "printed_total": 142,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/09/13",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv7-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv7-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv7a_ja",
+    "name": "楽園ドラゴーナ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv7a_ja",
+      "name": "楽園ドラゴーナ",
+      "series": "Scarlet & Violet",
+      "code": "SV7a",
+      "total": 94,
+      "printed_total": 64,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/09/13",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv7a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv7a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Paradise Dragona"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv6pt5",
+    "name": "Shrouded Fable",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv6pt5",
+      "name": "Shrouded Fable",
+      "series": "Scarlet & Violet",
+      "total": 99,
+      "printed_total": 64,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/08/02",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv6pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv6pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv7_ja",
+    "name": "ステラミラクル",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv7_ja",
+      "name": "ステラミラクル",
+      "series": "Scarlet & Violet",
+      "code": "SV7",
+      "total": 135,
+      "printed_total": 102,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/07/19",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv7_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv7_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Stellar Miracle"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv6a_ja",
+    "name": "ナイトワンダラー",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv6a_ja",
+      "name": "ナイトワンダラー",
+      "series": "Scarlet & Violet",
+      "code": "SV6a",
+      "total": 94,
+      "printed_total": 64,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/06/07",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv6a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv6a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Night Wanderer"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv6",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv6",
+      "name": "Twilight Masquerade",
+      "series": "Scarlet & Violet",
+      "total": 226,
+      "printed_total": 167,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/05/24",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv6-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv6-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv6_ja",
+    "name": "変幻の仮面",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv6_ja",
+      "name": "変幻の仮面",
+      "series": "Scarlet & Violet",
+      "code": "SV6",
+      "total": 133,
+      "printed_total": 101,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/04/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv6_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv6_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Mask of Change"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv5",
+      "name": "Temporal Forces",
+      "series": "Scarlet & Violet",
+      "total": 218,
+      "printed_total": 162,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/03/22",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv5-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv5a_ja",
+    "name": "クリムゾンヘイズ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv5a_ja",
+      "name": "クリムゾンヘイズ",
+      "series": "Scarlet & Violet",
+      "code": "SV5a",
+      "total": 96,
+      "printed_total": 66,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/03/22",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv5a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv5a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Crimson Haze"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv4pt5",
+      "name": "Paldean Fates",
+      "series": "Scarlet & Violet",
+      "total": 245,
+      "printed_total": 91,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2024/01/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv4pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv4pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv5k_ja",
+    "name": "ワイルドフォース",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv5k_ja",
+      "name": "ワイルドフォース",
+      "series": "Scarlet & Violet",
+      "code": "SV5K",
+      "total": 100,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/01/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv5k_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv5k_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Wild Force"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv5m_ja",
+    "name": "サイバージャッジ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv5m_ja",
+      "name": "サイバージャッジ",
+      "series": "Scarlet & Violet",
+      "code": "SV5M",
+      "total": 100,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2024/01/26",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv5m_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv5m_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Cyber Judge"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv4a_ja",
+    "name": "シャイニートレジャーex",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv4a_ja",
+      "name": "シャイニートレジャーex",
+      "series": "Scarlet & Violet",
+      "code": "SV4a",
+      "total": 360,
+      "printed_total": 190,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/12/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv4a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv4a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Shiny Treasure ex"
+        }
+      }
+    }
+  },
+  {
+    "id": "clb",
+    "name": "Pokémon TCG Classic - Blastoise",
+    "series": "Other",
+    "_raw": {
+      "id": "clb",
+      "name": "Pokémon TCG Classic - Blastoise",
+      "series": "Other",
+      "code": "CLB",
+      "total": 34,
+      "printed_total": 34,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/11/16",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/clb-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/clb-symbol/symbol"
+    }
+  },
+  {
+    "id": "clc",
+    "name": "Pokémon TCG Classic - Charizard",
+    "series": "Other",
+    "_raw": {
+      "id": "clc",
+      "name": "Pokémon TCG Classic - Charizard",
+      "series": "Other",
+      "code": "CLC",
+      "total": 34,
+      "printed_total": 34,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/11/16",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/clc-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/clc-symbol/symbol"
+    }
+  },
+  {
+    "id": "clv",
+    "name": "Pokémon TCG Classic - Venusaur",
+    "series": "Other",
+    "_raw": {
+      "id": "clv",
+      "name": "Pokémon TCG Classic - Venusaur",
+      "series": "Other",
+      "code": "CLV",
+      "total": 34,
+      "printed_total": 34,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/11/16",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/clv-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/clv-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv4",
+      "name": "Paradox Rift",
+      "series": "Scarlet & Violet",
+      "total": 266,
+      "printed_total": 182,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/11/03",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv4-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv4-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv4k_ja",
+    "name": "古代の咆哮",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv4k_ja",
+      "name": "古代の咆哮",
+      "series": "Scarlet & Violet",
+      "code": "SV4K",
+      "total": 95,
+      "printed_total": 66,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/10/27",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv4k_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv4k_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Ancient Roar"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv4m_ja",
+    "name": "未来の一閃",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv4m_ja",
+      "name": "未来の一閃",
+      "series": "Scarlet & Violet",
+      "code": "SV4M",
+      "total": 95,
+      "printed_total": 66,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/10/27",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv4m_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv4m_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Future Flash"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv3pt5",
+      "name": "151",
+      "series": "Scarlet & Violet",
+      "total": 207,
+      "printed_total": 165,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/09/22",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv3pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv3pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv3a_ja",
+    "name": "レイジングサーフ",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv3a_ja",
+      "name": "レイジングサーフ",
+      "series": "Scarlet & Violet",
+      "code": "SV3a",
+      "total": 92,
+      "printed_total": 62,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/09/22",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv3a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv3a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Raging Surf"
+        }
+      }
+    }
+  },
+  {
+    "id": "mcd23",
+    "name": "McDonald's Collection 2023",
+    "series": "Other",
+    "_raw": {
+      "id": "mcd23",
+      "name": "McDonald's Collection 2023",
+      "series": "Other",
+      "total": 15,
+      "printed_total": 15,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/09/11",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/mcd23-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/mcd23-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv3",
+      "name": "Obsidian Flames",
+      "series": "Scarlet & Violet",
+      "total": 230,
+      "printed_total": 197,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/08/11",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv3-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv3-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv3_ja",
+    "name": "黒炎の支配者",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv3_ja",
+      "name": "黒炎の支配者",
+      "series": "Scarlet & Violet",
+      "code": "SV3",
+      "total": 141,
+      "printed_total": 108,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/07/28",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv3_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv3_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Ruler of the Black Flame"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv2a_ja",
+    "name": "ポケモンカード151",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv2a_ja",
+      "name": "ポケモンカード151",
+      "series": "Scarlet & Violet",
+      "code": "SV2a",
+      "total": 210,
+      "printed_total": 165,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/06/16",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv2a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv2a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Pokémon Card 151"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv2",
+      "name": "Paldea Evolved",
+      "series": "Scarlet & Violet",
+      "total": 279,
+      "printed_total": 193,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/06/09",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv2-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv2-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv2p_ja",
+    "name": "スノーハザード",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv2p_ja",
+      "name": "スノーハザード",
+      "series": "Scarlet & Violet",
+      "code": "SV2P",
+      "total": 99,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/04/14",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv2p_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv2p_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Snow Hazard"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv2d_ja",
+    "name": "クレイバースト",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv2d_ja",
+      "name": "クレイバースト",
+      "series": "Scarlet & Violet",
+      "code": "SV2D",
+      "total": 99,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/04/14",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv2d_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv2d_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Clay Burst"
+        }
+      }
+    }
+  },
+  {
+    "id": "sve",
+    "name": "Scarlet & Violet Energies",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sve",
+      "name": "Scarlet & Violet Energies",
+      "series": "Scarlet & Violet",
+      "total": 16,
+      "printed_total": 16,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/03/31",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sve-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sve-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv1",
+      "name": "Scarlet & Violet",
+      "series": "Scarlet & Violet",
+      "total": 258,
+      "printed_total": 198,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/03/31",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv1-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv1-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv1a_ja",
+    "name": "トリプレットビート",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv1a_ja",
+      "name": "トリプレットビート",
+      "series": "Scarlet & Violet",
+      "code": "SV1a",
+      "total": 103,
+      "printed_total": 73,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/03/10",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv1a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv1a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Triplet Beat"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12pt5",
+      "name": "Crown Zenith",
+      "series": "Sword & Shield",
+      "total": 160,
+      "printed_total": 159,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/01/20",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12pt5-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12pt5-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12pt5gg",
+      "name": "Crown Zenith Galarian Gallery",
+      "series": "Sword & Shield",
+      "total": 70,
+      "printed_total": 70,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/01/20",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12pt5gg-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12pt5gg-symbol/symbol"
+    }
+  },
+  {
+    "id": "sv1s_ja",
+    "name": "スカーレットex",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv1s_ja",
+      "name": "スカーレットex",
+      "series": "Scarlet & Violet",
+      "code": "SV1S",
+      "total": 108,
+      "printed_total": 78,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/01/20",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv1s_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv1s_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Scarlet ex"
+        }
+      }
+    }
+  },
+  {
+    "id": "sv1v_ja",
+    "name": "バイオレットex",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "sv1v_ja",
+      "name": "バイオレットex",
+      "series": "Scarlet & Violet",
+      "code": "SV1V",
+      "total": 108,
+      "printed_total": 78,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2023/01/20",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/sv1v_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/sv1v_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Violet ex"
+        }
+      }
+    }
+  },
+  {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "svp",
+      "name": "Scarlet & Violet Black Star Promos",
+      "series": "Scarlet & Violet",
+      "total": 224,
+      "printed_total": 224,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2023/01/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/svp-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/svp-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh12a_ja",
+    "name": "VSTARユニバース",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12a_ja",
+      "name": "VSTARユニバース",
+      "series": "Sword & Shield",
+      "code": "S12a",
+      "total": 262,
+      "printed_total": 172,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/12/02",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "VSTAR Universe"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12",
+      "name": "Silver Tempest",
+      "series": "Sword & Shield",
+      "total": 215,
+      "printed_total": 195,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/11/11",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh12tg",
+    "name": "Silver Tempest Trainer Gallery",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12tg",
+      "name": "Silver Tempest Trainer Gallery",
+      "series": "Sword & Shield",
+      "total": 30,
+      "printed_total": 30,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/11/11",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12tg-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12tg-symbol/symbol"
+    }
+  },
+  {
+    "id": "svp_ja",
+    "name": "Scarlet & Violet Promos",
+    "series": "Scarlet & Violet",
+    "_raw": {
+      "id": "svp_ja",
+      "name": "Scarlet & Violet Promos",
+      "series": "Scarlet & Violet",
+      "total": 277,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/11/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/svp_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/svp_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Scarlet & Violet Promos"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh12_ja",
+    "name": "パラダイムトリガー",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh12_ja",
+      "name": "パラダイムトリガー",
+      "series": "Sword & Shield",
+      "code": "S12",
+      "total": 125,
+      "printed_total": 98,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/10/21",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh12_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh12_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Paradigm Trigger"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh11",
+      "name": "Lost Origin",
+      "series": "Sword & Shield",
+      "total": 217,
+      "printed_total": 196,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/09/09",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh11-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh11-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh11tg",
+    "name": "Lost Origin Trainer Gallery",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh11tg",
+      "name": "Lost Origin Trainer Gallery",
+      "series": "Sword & Shield",
+      "total": 30,
+      "printed_total": 30,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/09/09",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh11tg-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh11tg-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh11a_ja",
+    "name": "白熱のアルカナ",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh11a_ja",
+      "name": "白熱のアルカナ",
+      "series": "Sword & Shield",
+      "code": "S11a",
+      "total": 94,
+      "printed_total": 68,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/09/02",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh11a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh11a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Incandescent Arcana"
+        }
+      }
+    }
+  },
+  {
+    "id": "mcd22",
+    "name": "McDonald's Collection 2022",
+    "series": "Other",
+    "_raw": {
+      "id": "mcd22",
+      "name": "McDonald's Collection 2022",
+      "series": "Other",
+      "total": 15,
+      "printed_total": 15,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/08/03",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/mcd22-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/mcd22-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh11_ja",
+    "name": "ロストアビス",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh11_ja",
+      "name": "ロストアビス",
+      "series": "Sword & Shield",
+      "code": "S11",
+      "total": 127,
+      "printed_total": 100,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/07/15",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh11_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh11_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Lost Abyss"
+        }
+      }
+    }
+  },
+  {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "pgo",
+      "name": "Pokémon GO",
+      "series": "Sword & Shield",
+      "total": 88,
+      "printed_total": 78,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/07/01",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/pgo-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/pgo-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh10b_ja",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10b_ja",
+      "name": "Pokémon GO",
+      "series": "Sword & Shield",
+      "code": "S10b",
+      "total": 101,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/06/17",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10b_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10b_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Pokémon GO"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10",
+      "name": "Astral Radiance",
+      "series": "Sword & Shield",
+      "total": 216,
+      "printed_total": 189,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/05/27",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh10tg",
+    "name": "Astral Radiance Trainer Gallery",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10tg",
+      "name": "Astral Radiance Trainer Gallery",
+      "series": "Sword & Shield",
+      "total": 30,
+      "printed_total": 30,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/05/27",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10tg-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10tg-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh10a_ja",
+    "name": "ダークファンタズマ",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10a_ja",
+      "name": "ダークファンタズマ",
+      "series": "Sword & Shield",
+      "code": "S10a",
+      "total": 99,
+      "printed_total": 71,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/05/13",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Dark Phantasma"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh10d_ja",
+    "name": "タイムゲイザー",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10d_ja",
+      "name": "タイムゲイザー",
+      "series": "Sword & Shield",
+      "code": "S10D",
+      "total": 88,
+      "printed_total": 67,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/04/08",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10d_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10d_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Time Gazer"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh10p_ja",
+    "name": "スペースジャグラ",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh10p_ja",
+      "name": "スペースジャグラ",
+      "series": "Sword & Shield",
+      "code": "S10P",
+      "total": 88,
+      "printed_total": 67,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/04/08",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh10p_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh10p_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Space Juggler"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh9",
+      "name": "Brilliant Stars",
+      "series": "Sword & Shield",
+      "total": 186,
+      "printed_total": 172,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/02/25",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh9-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh9-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh9tg",
+    "name": "Brilliant Stars Trainer Gallery",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh9tg",
+      "name": "Brilliant Stars Trainer Gallery",
+      "series": "Sword & Shield",
+      "total": 30,
+      "printed_total": 30,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2022/02/25",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh9tg-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh9tg-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh9a_ja",
+    "name": "バトルリージョン",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh9a_ja",
+      "name": "バトルリージョン",
+      "series": "Sword & Shield",
+      "code": "S9a",
+      "total": 93,
+      "printed_total": 67,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/02/25",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh9a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh9a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Battle Region"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh9_ja",
+    "name": "スターバース",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh9_ja",
+      "name": "スターバース",
+      "series": "Sword & Shield",
+      "code": "S9",
+      "total": 127,
+      "printed_total": 100,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2022/01/14",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh9_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh9_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Star Birth"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh8b_ja",
+    "name": "VMAXクライマックス",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh8b_ja",
+      "name": "VMAXクライマックス",
+      "series": "Sword & Shield",
+      "code": "S8b",
+      "total": 293,
+      "printed_total": 184,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2021/12/03",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh8b_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh8b_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "VMAX Climax"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh8",
+      "name": "Fusion Strike",
+      "series": "Sword & Shield",
+      "total": 284,
+      "printed_total": 264,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2021/11/12",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh8-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh8-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh8a_ja",
+    "name": "25th Anniversary Collection",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh8a_ja",
+      "name": "25th Anniversary Collection",
+      "series": "Sword & Shield",
+      "code": "S8a",
+      "total": 38,
+      "printed_total": 28,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2021/10/22",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh8a_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh8a_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "25th Anniversary Collection"
+        }
+      }
+    }
+  },
+  {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "cel25",
+      "name": "Celebrations",
+      "series": "Sword & Shield",
+      "total": 25,
+      "printed_total": 25,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2021/10/08",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/cel25-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/cel25-symbol/symbol"
+    }
+  },
+  {
+    "id": "cel25c",
+    "name": "Celebrations: Classic Collection",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "cel25c",
+      "name": "Celebrations: Classic Collection",
+      "series": "Sword & Shield",
+      "total": 25,
+      "printed_total": 25,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2021/10/08",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/cel25c-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/cel25c-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh8_ja",
+    "name": "フュージョンアーツ",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh8_ja",
+      "name": "フュージョンアーツ",
+      "series": "Sword & Shield",
+      "code": "S8",
+      "total": 129,
+      "printed_total": 100,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2021/09/24",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh8_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh8_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Fusion Arts"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh7",
+      "name": "Evolving Skies",
+      "series": "Sword & Shield",
+      "total": 237,
+      "printed_total": 203,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2021/08/27",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh7-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh7-symbol/symbol"
+    }
+  },
+  {
+    "id": "swsh7d_ja",
+    "name": "摩天パーフェクト",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh7d_ja",
+      "name": "摩天パーフェクト",
+      "series": "Sword & Shield",
+      "code": "S7D",
+      "total": 90,
+      "printed_total": 67,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2021/07/09",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh7d_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh7d_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Skyscraping Perfection"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh7r_ja",
+    "name": "蒼空ストリーム",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh7r_ja",
+      "name": "蒼空ストリーム",
+      "series": "Sword & Shield",
+      "code": "S7R",
+      "total": 90,
+      "printed_total": 67,
+      "language": "Japanese",
+      "language_code": "JA",
+      "release_date": "2021/07/09",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh7r_ja-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh7r_ja-symbol/symbol",
+      "translation": {
+        "en": {
+          "name": "Blue Sky Stream"
+        }
+      }
+    }
+  },
+  {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "_raw": {
+      "id": "swsh6",
+      "name": "Chilling Reign",
+      "series": "Sword & Shield",
+      "total": 233,
+      "printed_total": 198,
+      "language": "English",
+      "language_code": "EN",
+      "release_date": "2021/06/18",
+      "is_online_only": false,
+      "logo": "https://images.scrydex.com/pokemon/swsh6-logo/logo",
+      "symbol": "https://images.scrydex.com/pokemon/swsh6-symbol/symbol"
+    }
+  }
+]
