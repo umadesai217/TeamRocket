@@ -21,6 +21,12 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+### Unlock execution permission (Windows instruction)
+```sh
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+### Navigate to ProjectPokédexUI folder
+### Install packages
 ```sh
 npm install
 ```
