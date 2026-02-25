@@ -8,7 +8,7 @@
 
 <template>
   <!-- ...existing code... -->
-  <Testview/>
+  <Toolbar/>
   <div class="pt-16">
     <router-view />
   </div>
