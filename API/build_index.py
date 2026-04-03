@@ -492,7 +492,7 @@ def main_gui():
 
 
 if __name__ == "__main__":
-    # Provide simple CLI to launch GUI or run non-interactive in future
+    # Provides a simple CLI to launch the GUI or run non-interactive in the future
     parser = argparse.ArgumentParser(description="Build FAISS index from card set folders (visual)")
     parser.add_argument("--nogui", action="store_true", help="Do not launch GUI (reserved)")
     args = parser.parse_args()
