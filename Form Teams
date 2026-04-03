@@ -1,3 +1,3 @@
 Team: Team Rocket
-Members: Ghosti Matas, Carlos Diaz, Uma Desai, Blake Mosley, Nura Mouktar
+Members: Carlos Diaz (Team Leader), Ghosti Matas, Uma Desai, Blake Mosley, Nura Mouktar
 Project Proposal: Pokédex, Our project is an AI-powered trading card recognition web application that supports multiple franchises, starting with Pokémon and One Piece. Users can scan or upload an image of a card, and the system will identify the character, card variant, attributes and relevant details using machine learning models. The goal is to simulate a universal "CardDex" experience that works across different TCG universes, providing accurate recognition, card information, and a clean, interactive UI.
