@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\",
   "Documents": [
     {
@@ -13,6 +14,37 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\views\\Testview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\views\\Testview.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +59,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "main.js",
               "DocumentMoniker": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\main.js",
               "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\main.js",
@@ -35,12 +68,88 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-02-23T17:01:05.848Z",
+=======
+              "Title": "Toolbar.vue",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2026-02-18T03:09:32.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testview.vue",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\views\\Testview.vue",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\views\\Testview.vue",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\views\\Testview.vue",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\views\\Testview.vue",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2026-02-18T03:22:22.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package.json",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\package.json",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package.json",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T03:13:50.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package-lock.json",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\package-lock.json",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\package-lock.json",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\package-lock.json",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T03:13:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "jsconfig.json",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\jsconfig.json",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\jsconfig.json",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\jsconfig.json",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\jsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T03:13:35.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-18T03:13:13.016Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.vue",
+<<<<<<< Updated upstream
               "DocumentMoniker": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
               "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\App.vue",
               "ToolTip": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
@@ -60,6 +169,16 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
               "WhenOpened": "2026-02-23T16:55:21.847Z"
+=======
+              "DocumentMoniker": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\App.vue",
+              "ToolTip": "C:\\Users\\Ghost\\Documents\\School\\CS490\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2026-02-18T03:07:06.529Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }

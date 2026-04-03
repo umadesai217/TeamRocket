@@ -29,11 +29,16 @@ export default {
   .toolbar {
     clip-path: polygon(0 0, 100% 0%, 100% 50%, 45% 50%, 35% 100%, 0 100%);
     background-color: gray;
+<<<<<<< Updated upstream
     margin: 0;
     position: fixed;
     top: 10px;
     left: 0;
     right: 0;
+=======
+    margin: -30px;
+    
+>>>>>>> Stashed changes
   }
   
   
