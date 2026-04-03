@@ -1,8 +1,8 @@
 # TeamRocket
 
-## Environment setup instructions
+## Environment Setup Instructions
 - Install VS code
-You can use any other IDE that supports python and HTML VS code is recommended. https://code.visualstudio.com/
+You can use any other IDE that supports python and HTML Visual Studio Code is recommended. https://code.visualstudio.com/
 
 - Install Python Plugins
 Install the Python plugins if required for your IDE
