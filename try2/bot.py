@@ -13,6 +13,8 @@ from dotenv import load_dotenv
 from discord.ui import View, Button
 import requests
 
+
+
 # === OCR ===
 reader = easyocr.Reader(['en'])  # Better OCR than Tesseract
 
