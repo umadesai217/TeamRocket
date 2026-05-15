@@ -2,6 +2,7 @@ try2/card_embeddings.npy
 try2/card_index.faiss
 *.png
 .env
+API/.env
 index_out/card_embeddings.npy
 index_out/card_filenames.txt
 index_out/card_index.faiss
