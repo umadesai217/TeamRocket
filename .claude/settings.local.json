@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(cp -v training/match.py training/card_detector.pt training/yolov8n.pt teamrocket/training/)",
+      "Bash(cp -v training/test.jpg teamrocket/training/)",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['card']
+
+roboflow:
+  workspace: busterblake-jsums
+  project: pokemoncarddetector-i6i1z
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/busterblake-jsums/pokemoncarddetector-i6i1z/dataset/1

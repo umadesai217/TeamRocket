@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\App.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\main.js",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\main.js",
+              "ToolTip": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\main.js",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\main.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-23T17:01:05.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.vue",
+              "DocumentMoniker": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\App.vue",
+              "ToolTip": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\App.vue",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\App.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2026-02-23T16:57:04.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Toolbar.vue",
+              "DocumentMoniker": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "RelativeDocumentMoniker": "ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "ToolTip": "C:\\Users\\cj10l\\OneDrive\\Desktop\\Coding\\Team rocket\\TeamRocket\\ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "RelativeToolTip": "ProjectPok\u00E9dexUI\\src\\components\\Toolbar.vue",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003491|",
+              "WhenOpened": "2026-02-23T16:55:21.847Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
